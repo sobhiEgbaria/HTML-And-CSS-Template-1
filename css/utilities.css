@@ -20,21 +20,74 @@
   opacity: 0.8;
 }
 
-.btn-primary {
+.btn-primary,
+.bg-primary {
   color: white;
   background-color: #28a745;
 }
-.btn-secondary {
+.btn-secondary,
+.bg-secondary {
   color: white;
   background-color: #0284d0;
 }
 
-.btn-dark {
+.btn-dark,
+.bg-dark {
   color: #fff;
   background-color: #333;
 }
 
-.btn-light {
+.btn-light,
+.bg-light {
   color: #333;
   background-color: #f4f4f4;
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* flex columns */
+
+.flex-columns .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1 {
+  height: 100%;
+}
+
+.flex-columns .column .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  height: 100%;
+}
+
+.flex-columns img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.flex-columns h2 {
+  padding: 10px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid white;
 }
