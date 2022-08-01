@@ -66,3 +66,32 @@ img {
 .navbar .logo {
   font-weight: 400;
 }
+
+/* header */
+
+.hero {
+  background: url("/image_resources/home/showcase.jpg") no-repeat center
+    center/cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.hero .content h1 {
+  font-size: 55px;
+}
+.hero .content p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
