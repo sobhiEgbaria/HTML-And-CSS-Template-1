@@ -5,3 +5,36 @@
 .text-secondary {
   color: #0284d0;
 }
+
+.btn {
+  color: white;
+  display: inline-block;
+  background-color: #28a745;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #28a745;
+}
+.btn-secondary {
+  color: white;
+  background-color: #0284d0;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4;
+}
