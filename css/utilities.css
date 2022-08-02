@@ -15,7 +15,8 @@
   padding: 10px 30px;
 }
 
-.btn:hover {
+.btn:hover,
+.grid-imgs .row .column img:hover {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -85,6 +86,8 @@
 
 .flex-columns h2 {
   padding: 10px;
+  font-size: 40px;
+  margin-left: -10px;
 }
 
 .btn-outline {
